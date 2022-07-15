@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "bluetooth",
+      "code": "tbh101",
+      "availability": "17th July 2022",
+      "image": "tws.jpg",
+      "name": "TWS Bluetooth Headphone",
+      "price": 123,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tristique justo, id cursus erat. Cras elementum lobortis sapien eget vestibulum. Aliquam a erat eu metus placerat lacinia. Aenean laoreet quam eu turpis accumsan laoreet. Donec a erat elit. In feugiat dui orci, a scelerisque dolor porttitor nec. Etiam eu finibus felis. Morbi tincidunt dui vitae orci congue, vitae porttitor lacus elementum. Nullam nisi diam, hendrerit id fermentum a, congue vel tellus. Aliquam eget pulvinar lorem. Etiam venenatis, lectus ut ultricies lobortis, leo nunc pulvinar urna, nec iaculis odio magna nec sapien.",
+      "rating": 1.5
+    },
+    {
+      "id": 2,
+      "category": "bluetooth",
+      "code": "be001",
+      "availability": "19th July 2022",
+      "image": "earbuds.jpg",
+      "name": "Bluetooth Earbuds",
+      "price": 200,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tristique justo, id cursus erat. Cras elementum lobortis sapien eget vestibulum. Aliquam a erat eu metus placerat lacinia. Aenean laoreet quam eu turpis accumsan laoreet. Donec a erat elit. In feugiat dui orci, a scelerisque dolor porttitor nec. Etiam eu finibus felis. Morbi tincidunt dui vitae orci congue, vitae porttitor lacus elementum. Nullam nisi diam, hendrerit id fermentum a, congue vel tellus. Aliquam eget pulvinar lorem. Etiam venenatis, lectus ut ultricies lobortis, leo nunc pulvinar urna, nec iaculis odio magna nec sapien.",
+      "rating": 2.0
+    },
+    {
+      "id": 3,
+      "category": "bluetooth",
+      "code": "upb000",
+      "availability": "21th July 2022",
+      "image": "urbanner.png",
+      "name": "Urbanners Platform Bluetooth",
+      "price": 230,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tristique justo, id cursus erat. Cras elementum lobortis sapien eget vestibulum. Aliquam a erat eu metus placerat lacinia. Aenean laoreet quam eu turpis accumsan laoreet. Donec a erat elit. In feugiat dui orci, a scelerisque dolor porttitor nec. Etiam eu finibus felis. Morbi tincidunt dui vitae orci congue, vitae porttitor lacus elementum. Nullam nisi diam, hendrerit id fermentum a, congue vel tellus. Aliquam eget pulvinar lorem. Etiam venenatis, lectus ut ultricies lobortis, leo nunc pulvinar urna, nec iaculis odio magna nec sapien.",
+      "rating": 3.5
+    },
+    {
+      "id": 4,
+      "category": "bluetooth",
+      "code": "lbb121",
+      "availability": "23th July 2022",
+      "image": "lenovo.jpg",
+      "name": "Lenovo Business Bluetooth",
+      "price": 200,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tristique justo, id cursus erat. Cras elementum lobortis sapien eget vestibulum. Aliquam a erat eu metus placerat lacinia. Aenean laoreet quam eu turpis accumsan laoreet. Donec a erat elit. In feugiat dui orci, a scelerisque dolor porttitor nec. Etiam eu finibus felis. Morbi tincidunt dui vitae orci congue, vitae porttitor lacus elementum. Nullam nisi diam, hendrerit id fermentum a, congue vel tellus. Aliquam eget pulvinar lorem. Etiam venenatis, lectus ut ultricies lobortis, leo nunc pulvinar urna, nec iaculis odio magna nec sapien.",
+      "rating": 4.5
+    },
+    {
+      "id": 5,
+      "category": "bluetooth",
+      "code": "bh222",
+      "availability": "25th July 2022",
+      "image": "blue.png",
+      "name": "Bluetooth Headset",
+      "price": 130,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tristique justo, id cursus erat. Cras elementum lobortis sapien eget vestibulum. Aliquam a erat eu metus placerat lacinia. Aenean laoreet quam eu turpis accumsan laoreet. Donec a erat elit. In feugiat dui orci, a scelerisque dolor porttitor nec. Etiam eu finibus felis. Morbi tincidunt dui vitae orci congue, vitae porttitor lacus elementum. Nullam nisi diam, hendrerit id fermentum a, congue vel tellus. Aliquam eget pulvinar lorem. Etiam venenatis, lectus ut ultricies lobortis, leo nunc pulvinar urna, nec iaculis odio magna nec sapien.",
+      "rating": 2.5
+    },
+    {
+      "id": 6,
+      "category": "bluetooth",
+      "code": "v8111",
+      "availability": "27th July 2022",
+      "image": "v8.png",
+      "name": "V8 Bluetooth Speaker",
+      "price": 300,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tristique justo, id cursus erat. Cras elementum lobortis sapien eget vestibulum. Aliquam a erat eu metus placerat lacinia. Aenean laoreet quam eu turpis accumsan laoreet. Donec a erat elit. In feugiat dui orci, a scelerisque dolor porttitor nec. Etiam eu finibus felis. Morbi tincidunt dui vitae orci congue, vitae porttitor lacus elementum. Nullam nisi diam, hendrerit id fermentum a, congue vel tellus. Aliquam eget pulvinar lorem. Etiam venenatis, lectus ut ultricies lobortis, leo nunc pulvinar urna, nec iaculis odio magna nec sapien.",
+      "rating": 5.0
+    }
+  ]
+}
