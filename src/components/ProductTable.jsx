@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import StarRating from "./StarRating";
 
 export default function ProductTable({
   products,
@@ -59,9 +60,31 @@ export default function ProductTable({
               </td>
               <td>{product.code}</td>
               <td>{product.availability}</td>
-              <td>{product.price}</td>
+              <td>GHc{product.price}</td>
               <td>
-                <i className="bi bi-star-fill me-1 text-warning"></i>
+                {product.rating === 0.0 ? (
+                  <StarRating value={0.0} />
+                ) : product.rating === 0.5 ? (
+                  <StarRating value={0.5} />
+                ) : product.rating === 1.0 ? (
+                  <StarRating value={1.0} />
+                ) : product.rating === 1.5 ? (
+                  <StarRating value={1.5} />
+                ) : product.rating === 2.0 ? (
+                  <StarRating value={2.0} />
+                ) : product.rating === 2.5 ? (
+                  <StarRating value={2.5} />
+                ) : product.rating === 3.0 ? (
+                  <StarRating value={3.0} />
+                ) : product.rating === 3.5 ? (
+                  <StarRating value={3.5} />
+                ) : product.rating === 4.0 ? (
+                  <StarRating value={4.0} />
+                ) : product.rating === 4.5 ? (
+                  <StarRating value={4.5} />
+                ) : product.rating === 5.0 ? (
+                  <StarRating value={5.0} />
+                ) : null}
                 {product.rating}
               </td>
             </tr>
