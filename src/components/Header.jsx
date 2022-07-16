@@ -12,7 +12,7 @@ export default function Header() {
         </li>
         <li className="nav-item">
           <Link
-            to={`/products`}
+            to={`/bluetooth`}
             className="btn btn-outline-primary ms-2 me-2 my-2"
           >
             Products

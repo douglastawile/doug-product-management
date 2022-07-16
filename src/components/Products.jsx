@@ -1,27 +1,29 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { useParams } from "react-router-dom";
+import useFetch from "../services/useFetch";
 import Spinner from "./Spinner";
-import { getProducts } from "../services/productsApi";
 import ProductTable from "./ProductTable";
 import FilterSearch from "./FilterSearch";
+import PageNotFound from "./PageNotFound";
 
 export default function Products() {
-  const [products, setProducts] = useState([]);
-  const [error, setError] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [filterText, setFilterText] = useState("");
+  const [showImage, setShowImage] = useState(false);
+  const { category } = useParams();
 
-  useEffect(() => {
-    getProducts("bluetooth")
-      .then((response) => setProducts(response))
-      .catch((error) => {
-        setError(error);
-      })
-      .finally(() => {
-        setLoading(false);
-      });
-  }, []);
+  const {
+    data: products,
+    error,
+    loading,
+  } = useFetch("products?category=" + category);
+
+  function handleShowImage() {
+    setShowImage((showImage) => !showImage);
+  }
 
   if (error) throw error;
   if (loading) return <Spinner />;
+  if (products.length === 0) return <PageNotFound />;
 
   return (
     <section className="col-sm-12">
@@ -30,8 +32,14 @@ export default function Products() {
           <h4 className="card-title">Product Lists</h4>
         </div>
         <div className="card-body">
-          <FilterSearch />
-          <ProductTable products={products} />
+          <FilterSearch filterText={filterText} setFilterText={setFilterText} />
+          <ProductTable
+            products={products}
+            filterText={filterText}
+            showImage={showImage}
+            handleShowImage={handleShowImage}
+            category={category}
+          />
         </div>
       </div>
     </section>
